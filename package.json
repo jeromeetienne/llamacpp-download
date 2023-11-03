@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeromeetienne/huggingface_playground.git"
+    "url": "https://github.com/jeromeetienne/llamacpp-download.git"
   },
   "keywords": [
     "hugging-face",
