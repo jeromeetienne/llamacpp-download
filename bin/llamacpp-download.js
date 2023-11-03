@@ -130,7 +130,7 @@ async function mainAsync() {
 		.addOption(new Commander.Option('-q, --quantizationMethod <string>', 'the level of quantization e.g. "Q6_K"').choices(quantizationMethods))
 		.action(async (modelName, options) => {
 			const realModelName =`TheBloke/${modelName}`
-			await doCommandDownload(modelName, {
+			await doCommandDownload(realModelName, {
 				maxFileSizeGbyte: options.maxFileSizeGbyte,
 				quantizationMethod: options.quantizationMethod
 			})
