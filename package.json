@@ -11,7 +11,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "publish": "np",
+    "release": "np",
     "sample": "./bin/llamacpp-download.js download TheBloke/zephyr-7B-alpha-GGUF -q Q8_0",
     "test": "echo \"Error: no test specified\""
   },
