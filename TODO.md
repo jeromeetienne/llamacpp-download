@@ -1,18 +1,20 @@
+- [ ] npm publish failing with 400
+  - reason unknown
 - [ ] improve the search capability
   - ```llamacpp-download list```
   - ```llamacpp-download search listOfTerms```
   - ```llamacpp-download download modelName```
   - if no command is present, assume it is ```download```
   - support ```-v``` verbose option to display more info on the models: likes, download
-- [ ] command line options for quantization filter
-  - by maximum file size
-  - by quantization method
 - [ ] how to guess/discover the maximum GPU memory available ?
   - discover by querying the OS
   - discover by testing model one by one
 
 ---
 
+- [x] command line options for quantization filter
+  - by maximum file size
+  - by quantization method
 - [x] rename it to ```llamacpp-download``` ? YES
   - seems definitly a better name
 - [x] put all that in its own repo

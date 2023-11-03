@@ -9,7 +9,6 @@ It leverage the excelent [TheBloke's HuggingFace models](https://huggingface.co/
 - find the largest model i can run
   - dychotomy + download + validate ?
 - download the largest model i can run for a specific computer
-  - 
 - improve the search capability
 - validate a downloaded model can run
   - download the model
