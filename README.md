@@ -19,7 +19,19 @@ It leverage the excelent [TheBloke's HuggingFace models](https://huggingface.co/
 Download "zephyr-7B-alpha-GGUF" model with quantisation "Q6_K"
 
 ```
-npx llamacpp-download -m TheBloke/zephyr-7B-alpha-GGUF -q Q6_K
+npx llamacpp-download download zephyr-7B-alpha-GGUF -q Q6_K
+```
+
+List all the models available
+
+```
+llamacpp-download.js list
+```
+
+Search for a model: e.g. all models names which includes "mistral" and "7b"
+
+```
+llamacpp-download.js search mistral 7b
 ```
 
 ## How to Install
