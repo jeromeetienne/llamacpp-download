@@ -5,6 +5,7 @@
   "main": "./bin/llamacpp-download.js",
   "type": "module",
   "bin": {
+    
     "llamacpp-download": "bin/llamacpp-download.js"
   },
   "engines": {
