@@ -1,6 +1,6 @@
 {
   "name": "llamacpp-download",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Easily download models for llama-cpp in a one line.",
   "main": "./bin/llamacpp-download.js",
   "type": "module",
