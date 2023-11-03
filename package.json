@@ -1,0 +1,38 @@
+{
+  "name": "llamacpp-download",
+  "version": "1.0.4",
+  "description": "Easily download models for llama-cpp in a one line.",
+  "main": "./bin/llamacpp-download.js",
+  "type": "module",
+  "bin": {
+    "llamacpp-download": "./bin/llamacpp-download.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "release": "np",
+    "sample": "./bin/llamacpp-download.js download TheBloke/zephyr-7B-alpha-GGUF -q Q8_0",
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeromeetienne/huggingface_playground.git"
+  },
+  "keywords": [
+    "hugging-face",
+    "downloader",
+    "thebloke",
+    "llama-cpp"
+  ],
+  "author": "jerome.etienne@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@huggingface/hub": "^0.11.3",
+    "cli-color": "^2.0.3",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "np": "^8.0.4"
+  }
+}

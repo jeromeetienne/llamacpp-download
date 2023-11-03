@@ -1,0 +1,26 @@
+- [ ] rename it to ```llamacpp-download``` ? YES
+  - seems definitly a better name
+- [ ] put all that in its own repo
+  - it has nothing to do with huggingface_playground
+- [ ] improve the search capability
+  - ```llamacpp-download list```
+  - ```llamacpp-download search listOfTerms```
+  - ```llamacpp-download download modelName```
+  - if no command is present, assume it is ```download```
+  - support ```-v``` verbose option to display more info on the models: likes, download
+- [ ] command line options for quantization filter
+  - by maximum file size
+  - by quantization method
+- [ ] how to guess/discover the maximum GPU memory available ?
+  - discover by querying the OS
+  - discover by testing model one by one
+
+---
+
+- [x] add quantisation option
+- [x] handle the model selection with it
+- [x] create a npm for it
+  - https://zellwk.com/blog/publish-to-npm/
+  - https://www.npmjs.com/package/thebloke_hf_downloader
+- [x] test npx for it
+  - ```npx llamacpp-download -m zephyr-7B-alpha-GGUF```
