@@ -1,7 +1,3 @@
-- [ ] rename it to ```llamacpp-download``` ? YES
-  - seems definitly a better name
-- [ ] put all that in its own repo
-  - it has nothing to do with huggingface_playground
 - [ ] improve the search capability
   - ```llamacpp-download list```
   - ```llamacpp-download search listOfTerms```
@@ -17,6 +13,10 @@
 
 ---
 
+- [x] rename it to ```llamacpp-download``` ? YES
+  - seems definitly a better name
+- [x] put all that in its own repo
+  - it has nothing to do with huggingface_playground
 - [x] add quantisation option
 - [x] handle the model selection with it
 - [x] create a npm for it
